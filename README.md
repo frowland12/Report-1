@@ -57,3 +57,27 @@ Next, you should run the regression with the code:
 ```stata
 regress G3 age traveltime studytime famrel freetime absences
 ```
+
+
+	(1)
+VARIABLES	G3
+	
+age	-0.613***
+	(0.181)
+traveltime	-0.614*
+	(0.327)
+studytime	0.508*
+	(0.275)
+famrel	0.282
+	(0.256)
+freetime	0.0997
+	(0.232)
+absences	0.0415
+	(0.0289)
+Constant	18.82***
+	(3.226)
+	
+Observations	395
+R-squared	0.053
+Standard errors in parentheses	
+*** p<0.01, ** p<0.05, * p<0.1	
