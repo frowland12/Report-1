@@ -58,6 +58,7 @@ Next, you should run the regression with the code:
 regress G3 age traveltime studytime famrel freetime absences
 ```
 
+```latex
 \documentclass[]{article}
 \setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
 \begin{document}
@@ -86,4 +87,4 @@ Observations & 395 \\
 \multicolumn{2}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
 \end{tabular}
 \end{document}
-
+```
