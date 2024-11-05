@@ -27,7 +27,7 @@ print (X)
 ```
 
 For the estimation of parameters, in the first step I create a matrix of ones for the constant in the matrix of independent variales.
-In the matrix 'independent', you can change the variables that you wish consider as explonatory variables, for example extraction some variables or adding anothers like 'interntet' or 'romantic'. It happens the same with the variable dependent, for example instead of 'G3' you could consider 'G2' or'G1'.
+In the matrix 'independent', you can change the variables that you wish consider as explonatory variables, for example extraction some variables or adding anothers like 'interntet' or 'romantic'. It happens the same with the variable dependent, for example instead of 'G3' you could consider 'G2' or 'G1'.
 
 ```python
 # Import some libraries for working in a better way
