@@ -27,7 +27,7 @@ print (X)
 ```
 
 For the estimation of parameters, in the first step I create a matrix of ones for the constant in the matrix of independent variales.
-In the matrix 'independent', you can change the variables that you wish consider as independent variables. It happens the same with the variable independent.
+In the matrix 'independent', you can change the variables that you wish consider as independent variables. It happens the same with the variable independent, for example instead of 'G3' tou could consider 'G2' or'G1'.
 
 ```python
 # Import some libraries for working in a better way
