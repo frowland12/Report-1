@@ -52,4 +52,4 @@ In the next sections of the notebook you can obtain automatically the standard e
 
 ## Interpretation of the results
 
-In this regression $$\beta_0$$ means that when all the independent variables are $$0$$ (age, traveltime, studytime, freetime and abscences), the value of $$G3$$ will be $$15.3557$$.
+In this regression $$\beta_0$$ means that when all the independent variables are $$0$$ (age, traveltime, studytime, freetime and abscences), the value of $$G3$$ will be $$15.3557$$. $$\beta_1$$ means that if a student is aged with one additional year, the score of $$G3$$ will change $$-0.2462774$$, mantaining all the another independent variables constants. $$\beta_2$$ means that if a student has an additional minute in his travel from home to school, the score of $$G3$$ will change $$-0.4708$$, mantaining all the another independent variables constants.
