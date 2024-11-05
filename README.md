@@ -45,3 +45,5 @@ independent=df[['age','traveltime','studytime','famrel','freetime','absences']].
 # Matrix of dependent variable
 dependent=dg[['G3']].to_numpy()
 ```
+
+In the next sections of the notebook you can obtain automatically the standard errors, t-statistics, p-values and R-square.
