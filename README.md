@@ -50,6 +50,6 @@ dependent=dg[['G3']].to_numpy()
 
 In the next sections of the notebook you can obtain automatically the standard errors, t-statistics, p-values and R-square.
 
-# Interpretation of the results
+## Interpretation of the results
 
 
