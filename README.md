@@ -57,5 +57,6 @@ Next, you should run the regression with the code:
 ```stata
 regress G3 age traveltime studytime famrel freetime absences
 ```
+Finally, I show the results in Stata that are the same than in Python.
 
 ![Resultados STATA](Tables.jpg)
