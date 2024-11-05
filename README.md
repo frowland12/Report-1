@@ -28,3 +28,20 @@ print (X)
 
 For the estimation of parameters, in the first step I create a matrix of ones for the constant in the matrix of independent variales.
 In the matrix 'independent', you can change the variables that you wish consider as independent variables. It happens the same with the variable independent.
+
+```python
+# Import some libraries for working in a better way
+
+import pandas as pd
+import numpy as np
+
+
+df=pd.DataFrame(X)
+dg=pd.DataFrame(y)
+
+# Matrix of independent variables
+independent=df[['age','traveltime','studytime','famrel','freetime','absences']].to_numpy()
+
+# Matrix of dependent variable
+dependent=dg[['G3']].to_numpy()
+```
