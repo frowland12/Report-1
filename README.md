@@ -52,4 +52,4 @@ In the next sections of the notebook you can obtain automatically the standard e
 
 ## Interpretation of the results
 
-
+In this regression $$\beta_0$$ means that when all the independent variables are $$0$$ (age, traveltime, studytime, freetime and abscences), the value of $$G3$$ will be $$15.3557$$.
