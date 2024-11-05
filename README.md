@@ -58,33 +58,4 @@ Next, you should run the regression with the code:
 regress G3 age traveltime studytime famrel freetime absences
 ```
 
-```latex
-\documentclass[]{article}
-\setlength{\pdfpagewidth}{8.5in} \setlength{\pdfpageheight}{11in}
-\begin{document}
-\begin{tabular}{lc} \hline
- & (1) \\
-VARIABLES & G3 \\ \hline
- &  \\
-age & -0.613*** \\
- & (0.181) \\
-traveltime & -0.614* \\
- & (0.327) \\
-studytime & 0.508* \\
- & (0.275) \\
-famrel & 0.282 \\
- & (0.256) \\
-freetime & 0.0997 \\
- & (0.232) \\
-absences & 0.0415 \\
- & (0.0289) \\
-Constant & 18.82*** \\
- & (3.226) \\
- &  \\
-Observations & 395 \\
- R-squared & 0.053 \\ \hline
-\multicolumn{2}{c}{ Standard errors in parentheses} \\
-\multicolumn{2}{c}{ *** p$<$0.01, ** p$<$0.05, * p$<$0.1} \\
-\end{tabular}
-\end{document}
-```
+
