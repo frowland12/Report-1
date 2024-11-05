@@ -54,7 +54,7 @@ In the next sections of the notebook you can obtain automatically the standard e
 
 In this regression $$\beta_0$$ means that when all the independent variables are $$0$$ (age, traveltime, studytime, freetime and abscences), the value of $$G3$$ will be $$15.3557$$. $$\beta_1$$ means that if a student is aged with one additional year, the score of $$G3$$ will change $$-0.2462774$$, mantaining all the anothers independent variables constants. $$\beta_2$$ means that if a student has an additional minute in his travel from home to school, the score of $$G3$$ will change $$-0.4708$$, mantaining all the anothers independent variables constants.
 The standard errors are relatively low, therefore the estimations of $$\beta$$ are relatively confident (the highest value is the standar error of $$\beta_0$$). The aforementioned will impacti directly in t-stattistics because lower standard errors will cause higher t-stattics, therefore are significative different to 0. This will lead to lower p-values ($$p<0.05$$), so the estimation of coefficients are statisticaly significatives.
-Finally, $$R^2$$ is the percentage of variability of dependent variable that could be explained by the independent variables. In this case I have a $$R^2=0.1042$$ , therefore a $$10.42%$$ of dependent variable could be explained with this fit, which is a bit low.
+Finally, $$R^2$$ is the percentage of variability of dependent variable that could be explained by the independent variables. In this case I have a $$R^2=0.1042$$ , therefore a $$10.42 %$$ of dependent variable could be explained with this fit, which is a bit low.
 
 ## Challenges and interesting observations
 
