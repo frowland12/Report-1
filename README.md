@@ -58,4 +58,4 @@ Next, you should run the regression with the code:
 regress G3 age traveltime studytime famrel freetime absences
 ```
 
-
+![Resultados STATA](Tables.jpg)
