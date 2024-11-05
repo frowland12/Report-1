@@ -1,6 +1,8 @@
 # Report-1
 In this repository I am going to present the resolution of Report 1 about the estimation of an Ordinary Least Squares (OLS) regression for the module "Programming and Policy Analysis".
 
+## How to run the code?
+
 In the first section of the notebook, you can upload any database that presents independent variables and dependent variables.
 
 ```python
@@ -47,3 +49,7 @@ dependent=dg[['G3']].to_numpy()
 ```
 
 In the next sections of the notebook you can obtain automatically the standard errors, t-statistics, p-values and R-square.
+
+# Interpretation of the results
+
+
