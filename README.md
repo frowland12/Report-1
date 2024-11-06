@@ -42,7 +42,7 @@ Finally, $$R^2$$ is the percentage of variability of dependent variable that cou
 
 ## Challenges and interesting observations
 
-My main difficulties in solving this report is using Python without libraries. I think it could be interesting to calculate the estimation of coefficients, standard errors, t-statistics, p-values and $$R^2$$ only using some loops with for or while, but I have some troubles with those codes. By contrast, I think it would be less efficient to use loops for writing this code.
+My main difficulties in solving this report is using Python without libraries. I think it could be interesting to calculate the estimation of coefficients, standard errors, t-statistics, p-values and $$R^2$$ using some loops with for or while, but I have some troubles with those codes. By contrast, I think it would be less efficient to use loops for writing this code.
 
 ## Testing output with Stata
 
