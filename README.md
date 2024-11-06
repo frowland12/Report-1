@@ -15,8 +15,8 @@ RFM_df.head()
 
 ```
 
-For the estimation of parameters, in the first step I create a matrix of ones for the constant in the matrix of independent variales.
-In the matrix 'independent', you can change the variables that you wish consider as explonatory variables, for example extraction some variables or adding anothers like 'interntet' or 'romantic'. It happens the same with the variable dependent, for example instead of 'G3' you could consider 'G2' or 'G1'.
+For the estimation of parameters, in the first step I create a matrix of ones for the constant in the matrix of independent variables.
+In the matrix 'independent', you can change the variables that you wish consider as explonatory variables, for example extraction some variables or adding anothers like 'internet' or 'romantic'. It happens the same with the variable dependent, for example instead of 'G3' you could consider 'G2' or 'G1'.
 
 ```python
 # Import some libraries for working in a better way
@@ -37,7 +37,7 @@ In the next sections of the notebook you can obtain automatically the standard e
 ## Interpretation of the results
 
 In this regression $$\beta_0$$ means that when all the independent variables are $$0$$ (age, traveltime, studytime, freetime and abscences), the value of $$G3$$ will be $$18.8248$$. $$\beta_1$$ means that if a student is aged with one additional year, the score of $$G3$$ will change $$-0.6126$$, mantaining all the anothers independent variables constants. $$\beta_2$$ means that if a student has an additional minute in his travel from home to school, the score of $$G3$$ will change $$-0.6138$$, mantaining all the anothers independent variables constants.
-The standard errors are relatively low, therefore the estimations of $$\beta$$ are relatively confident (the highest value is the standar error of $$\beta_0$$). The aforementioned will impact directly in t-stattistics because lower standard errors will cause higher t-stattics, therefore are significatively different to 0. This will lead to lower p-values ($$p<0.05$$), so the estimation of coefficients are statisticaly significatives.
+The standard errors are relatively low, therefore the estimations of $$\beta$$ are relatively confident (the highest value is the standar error of $$\beta_0$$). The aforementioned will impact directly in t-statistics because lower standard errors will cause higher t-statistics, therefore are significatively different to 0. This will lead to lower p-values ($$p<0.05$$), so the estimation of coefficients are statisticaly significatives.
 Finally, $$R^2$$ is the percentage of variability of dependent variable that could be explained by the independent variables. In this case I have a $$R^2=0.0532$$ , therefore a $$5.32$$\% of dependent variable could be explained with this fit, which is a bit low.
 
 ## Challenges and interesting observations
